@@ -5,11 +5,13 @@ class Animal{
 	}
 }
 class Dog extends Animal{
+	@Override
 	void show(){
 		System.out.println("Dog class");
 	}
 }
 class Cat extends Animal{
+	@Override
 	void show(){
 		System.out.println("Cat class");
 	}
