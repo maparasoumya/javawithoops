@@ -1,4 +1,4 @@
-#dynamic method dispatch
+//dynamic method dispatch
 class Animal{
 	void show(){
 		System.out.println("Animal class");
